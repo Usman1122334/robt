@@ -43,7 +43,7 @@ The characters are converted into numbers, segmented and grouped into separate 1
 
 ![](RackMultipart20211020-4-xppme7_html_5176714ae60aa90e.gif) ![Shape1](RackMultipart20211020-4-xppme7_html_c72f898897551af2.gif)
 
-##Permutations
+## Permutations
 
 Permutations change the order of characters in the text. On its own, permutations offer little protection but in combination with 2D array functions and substitution and random numbers, they can greatly increase the effectiveness of those functions.
 
@@ -57,42 +57,42 @@ The letters in the text are placed in a matrix. The order of column transpositio
 
 ![](RackMultipart20211020-4-xppme7_html_cb500b39ce4989df.gif)
 
-**Rearrangement of groups of letters**
+## Rearrangement of groups of letters
 
 Groups of letters are rearranged as per the pass code
 
 ![](RackMultipart20211020-4-xppme7_html_2a4adeb390647b26.gif)
 
-**Rearrangement within a group**
+## Rearrangement within a group
 
 Letters within a group are rearranged as per the pass code
 
 ![](RackMultipart20211020-4-xppme7_html_e215c39d3804d60e.gif)
 
-**Reversal of letters**
+## Reversal of letters
 
 The order of all letters in the text are reversed. This does not require a pass code. The function is included in case the code words have a bias towards one end of the text. Reversing the text ensures both ends of the text are ciphered. This is to ensure that the cipher has good mixing capabilities in case there is a bias towards one end of the ciphertext.
 
 ![](RackMultipart20211020-4-xppme7_html_59ef5f07b83912b9.gif)
 
-**Grouping odds and evens**
+## Grouping odds and evens
 
 The odd and even letters are grouped together. The function repeats as dictated by a number from the pass code.
 
 ![](RackMultipart20211020-4-xppme7_html_feb48a70c56fdbd5.gif)
 
 ## Other functions
-###### Random letters
+### Random letters
 
 At certain points during the cipher random letters will be added. These extra random letters will be diffused into the cipher text through substation and permutations. For every 10 characters there will be at least 49 ^ 2x possible ciphertext possibilities.
 
 ![](RackMultipart20211020-4-xppme7_html_26f30d26ea3e2dad.gif)
 
-###### Code numbers and cipher numbers
+### Code numbers and cipher numbers
 
 As shown above the substitution or permutation functions typically use code numbers (generated from the code words) and cipher numbers (generated from the message letters). Both the output from the code numbers and cipher number numbers have shown to generate &quot;random-like&quot; numbers. Even the smallest change in the code words or the plain text message will result in a seemingly uncorrelated new set of random code numbers and cipher numbers respectively.
 
-**Features of the program**
+## Features of the program
 
 - **Variable cycles**
 
