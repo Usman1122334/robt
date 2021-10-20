@@ -1,5 +1,5 @@
 ![](RackMultipart20211020-4-xppme7_html_b588aa3db31f3cbc.jpg)
-
+# SP_Cypher_Network
 This is an encryption program using a substitution – permutation network. The cipher uses a symmetric key- so the same key is used for encryption and decryption
 
 ![](RackMultipart20211020-4-xppme7_html_bf7e550089ba3792.jpg)
@@ -15,12 +15,11 @@ The same three pass codes are required for encryption and decryption. Between 6 
 This cipher program uses three encryption methods. Substitution, permutation and random characters. The substitution and most permutation functions are dictated based on the passcodes.
 
 ![](RackMultipart20211020-4-xppme7_html_826db5e508b9c54.png)
-
-**Substitutions**
+## Substitutions
 
 Substitutions change the characters. The substitutions can either be direct substitution or functions of other the characters in the message.
 
-**Vigenère / Bellaso**
+## Vigenère / Bellaso
 
 Each letter in the text and in the passcode are converted to respective numbers and added or subtracted together to give a resulting number. Each resulting number is converted into a letter. Therefore, two same characters can be ciphered into different characters. As such frequency attacks can be neutralised.
 
