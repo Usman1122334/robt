@@ -1,4 +1,4 @@
-![](/1 20%(3).jpg)
+![](/120%(3).jpg)
 # SP_Cypher_Network
 This is an encryption program using a substitution – permutation network. The cipher uses a symmetric key- so the same key is used for encryption and decryption
 
