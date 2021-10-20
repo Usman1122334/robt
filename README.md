@@ -1,4 +1,4 @@
-![](RackMultipart20211020-4-xppme7_html_b588aa3db31f3cbc.jpg)
+![](/1(3).jpg)
 # SP_Cypher_Network
 This is an encryption program using a substitution – permutation network. The cipher uses a symmetric key- so the same key is used for encryption and decryption
 
