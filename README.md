@@ -25,25 +25,25 @@ Each letter in the text and in the passcode are converted to respective numbers 
 
 ![](RackMultipart20211020-4-xppme7_html_ecaf6cf42bb1f9e6.gif)
 
-**Avalanche cipher**
+## Avalanche cipher
 
 Each character from the plaintext message is converted to a number. A number taken from the passcode is added to first number of the message. Starting from the second position of the message, the resulting number is then added to the preceding number from the message. This means one change in the message will affect all letters in the ciphertext. Once completed, the numbers will be converted to ciphertext characters.
 
 ![](RackMultipart20211020-4-xppme7_html_a87efb4ee9adcf39.gif)
 
-**Two-character arrays**
+## Two-character arrays
 
 The characters from the plaintext message are substituted with characters from a 2D array. Therefore, each character will become two characters. The two characters from the 2D array representing each letter from the message can be varied in different permutations.
 
 ![](RackMultipart20211020-4-xppme7_html_e46d7437f6506e30.gif)
 
-**Hill function**
+## Hill function
 
 The characters are converted into numbers, segmented and grouped into separate 1D matrices. A predefined constant matrix is multiplied by each number from each 1D matrix to give each resulting number. Each resulting number is converted back into a character. The properties of matrix multiplication mean that the value of the multiplication is a result of the number, its three adjacent numbers and its position in the 1D matrix.
 
 ![](RackMultipart20211020-4-xppme7_html_5176714ae60aa90e.gif) ![Shape1](RackMultipart20211020-4-xppme7_html_c72f898897551af2.gif)
 
-**Permutations**
+##Permutations
 
 Permutations change the order of characters in the text. On its own, permutations offer little protection but in combination with 2D array functions and substitution and random numbers, they can greatly increase the effectiveness of those functions.
 
@@ -51,7 +51,7 @@ Many permutations in this cipher will rely on number orders from the pass codes.
 
 ![](RackMultipart20211020-4-xppme7_html_fb8ffc618f2dff80.gif)
 
-**Column Transposition**
+## Column Transposition
 
 The letters in the text are placed in a matrix. The order of column transposition is completed as per the order in the pass code
 
@@ -81,15 +81,14 @@ The odd and even letters are grouped together. The function repeats as dictated 
 
 ![](RackMultipart20211020-4-xppme7_html_feb48a70c56fdbd5.gif)
 
-**Other functions**
-
-- **Random letters**
+## Other functions
+###### Random letters
 
 At certain points during the cipher random letters will be added. These extra random letters will be diffused into the cipher text through substation and permutations. For every 10 characters there will be at least 49 ^ 2x possible ciphertext possibilities.
 
 ![](RackMultipart20211020-4-xppme7_html_26f30d26ea3e2dad.gif)
 
-- **Code numbers and cipher numbers**
+###### Code numbers and cipher numbers
 
 As shown above the substitution or permutation functions typically use code numbers (generated from the code words) and cipher numbers (generated from the message letters). Both the output from the code numbers and cipher number numbers have shown to generate &quot;random-like&quot; numbers. Even the smallest change in the code words or the plain text message will result in a seemingly uncorrelated new set of random code numbers and cipher numbers respectively.
 
