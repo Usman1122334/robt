@@ -110,7 +110,7 @@ The length of each list is between 19 to 43 characters. The exact length is base
 
 Many ciphers are based on blocks. This cipher encrypts the text in one big block. The program can do this with the addition of two random numbers per ten characters in the message. Therefore, larger messages will have more random numbers diffused into the message. So, whether the message to encrypt is small or large, it is not expected to make a difference to the security of the encryption.
 
-**Tips to make strong ciphers**
+## Tips to make strong ciphers
 
 The strength in the cipher lies with the pass codes. It is recommended to use random passcodes. Personally, I believe having one passcode using 12 characters, a second passcode of 11 characters and a third cipher of between 10 to 12 would offer the best security.
 
@@ -118,7 +118,7 @@ It is recommended not to use the same passcodes in different messages.
 
 Keep the pass codes as securely as possible
 
-**Weakness of the cipher**
+## Weakness of the cipher
 
 - **Brute force**
 
